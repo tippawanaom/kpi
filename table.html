@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ตัวชี้วัดทั้งหมด</title>
+  <style>
+    /* กำหนดสไตล์ทั่วไปสำหรับตาราง */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    /* กำหนดสไตล์สำหรับหัวตาราง */
+    th {
+      background-color: #007bff;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+    /* กำหนดสไตล์สำหรับเซลล์ข้อมูล */
+    td {
+      padding: 10px;
+      text-align: left;
+      border-top: 1px solid #ddd;
+    }
+    /* กำหนดสีพื้นหลังของแถวเมื่อวางเมาส์เหนือ */
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    /* กำหนดสีพื้นหลังของแถวที่เป็นคู่ */
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    /* กำหนดสีพื้นหลังของแถวที่เป็นคี่ */
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+<h2> ตัวชี้วัดทั้งหมด</h2>
+
+<table>
+  <tr>
+    <th>ลำดับ</th>
+    <th>ชื่อตัวชี้วัด</th>
+    <th>เกณฑ์</th>
+    <th>แหล่งข้อมูล</th>
+    <th>เป้าหมาย</th>
+    <th>ผลงาน</th>
+    <th>ร้อยละ</th>
+    <th>ผู้รับผิดชอบ</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>อัตราตายทารกแรกเกิด อายุต่ำกว่าหรือเท่ากับ 28 วัน <3.6 ต่อ 1000 ทารกเกิดมีชีพ</td>
+    <td> < 3.60    </td>
+    <td> HDC </td>
+    <td>0</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>อัตราตายผู้ป่วยติดเชื้อในกระแสเลือดแบบรุนแรงชนิด community-acquired</td>
+    <td> < 26</td>
+    <td>HDC</td>
+    <td>0</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(65, 93, 219);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(65, 93, 219); text-decoration: none;">IC</a>
+      </td>
+      
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>อัตราตายของผู้ป่วยโรคกล้ามเนื้อหัวใจตายเฉียบพลันชนิด STEMI</td>
+    <td> < 9</td>
+    <td>HDC </td>
+    <td>2</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: orange;">
+        <a href="file:///D:/row/index.html.html#" style="color: orange; text-decoration: none;">ER</a>
+      </td>
+  </tr> 
+  <tr>
+    <td>4</td>
+    <td>ร้อยละของการให้การรักษาผู้ป่วย STEMI ได้ตามมาตรฐานเวลาที่กำหนด (≥ ร้อยละ 70) </td>
+    <td> ≥ 70 </td>
+    <td> man </td>
+    <td>4</td>
+    <td>4</td>
+    <td style="background-color: green; color: white;">100</td>
+    <td style="color: orange;">
+        <a href="file:///D:/row/index.html.html#" style="color: orange; text-decoration: none;">ER</a>
+      </td>
+      
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>ร้อยละของผู้ป่วย STEMI ที่ได้รับยาละลายลิ่มเลือดได้ตามมาตรฐานเวลาที่กำหนด </td>
+    <td> ≥ 70 </td>
+    <td> man </td>
+    <td>4</td>
+    <td>4</td>
+    <td style="background-color: green; color: white;">100</td>
+    <td style="color: orange;">
+        <a href="file:///D:/row/index.html.html#" style="color: orange; text-decoration: none;">ER</a>
+      </td>
+      
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>ร้อยละของผู้ป่วย STEMI ที่ได้รับการทำ Primary PCI ได้ตามมาตรฐานเวลาที่กำหนด </td>
+    <td> ≥ 70 </td>
+    <td> man </td>
+    <td>4</td>
+    <td>4</td>
+    <td style="background-color: green; color: white;">100</td>
+    <td style="color: orange;">
+        <a href="file:///D:/row/index.html.html#" style="color: orange; text-decoration: none;">ER</a>
+      </td>
+      
+  </tr>
+  <tr>
+    <td>7</td>
+    <td> อัตราตายของผู้ป่วยโรคกล้ามเนื้อหัวใจตายเฉียบพลันชนิด STEMI ภายใน 30 วัน นับจากผู้ป่วยได้รับการวินิจฉัย STEMI</td>
+    <td> < 10 </td>
+    <td> man </td>
+    <td>4</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: orange;">
+        <a href="file:///D:/row/index.html.html#" style="color: orange; text-decoration: none;">ER</a>
+      </td>
+      
+
+  </tr>
+  <tr>
+    <td>8</td>
+    <td> ร้อยละผู้ป่วยไตเรื้อรัง stage 5 รายใหม่ ลดลงน้อยกว่าร้อยละ 10 จากปีงบประมาณก่อน</td>
+    <td> < 10 </td>
+    <td> HDC </td>
+    <td>2</td>
+    <td>0</td>
+    <td style="background-color: green; color: white;">100</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td> ร้อยละผู้ป่วยไตเรื้อรัง stage 5 รายใหม่ ลดลงน้อยกว่าร้อยละ 10 จากปีงบประมาณก่อน ตรวจราชการ</td>
+    <td> < 10 </td>
+    <td> HDC </td>
+    <td>2</td>
+    <td>0</td>
+    <td style="background-color: green; color: white;">100</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td> ร้อยละของผู้ป่วยเบาหวานชนิดที่ 2 ที่เข้าสู่โรคเบาหวานระยะสงบ (DM remission) ต่อผู้ป่วยที่เข้าสมัครใจเข้าร่วม NCDs remission clinic</td>
+    <td> < 10 </td>
+    <td> man </td>
+    <td>31</td>
+    <td>4</td>
+    <td style="background-color: green; color: white;">12.9</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td> ร้อยละของผู้ป่วยเบาหวานชนิดที่ 2 ที่เข้าสู่โรคเบาหวานระยะสงบ (DM remission) ต่อผู้ป่วยเบาหวานชนิดที่ 2 ทั้งหมดในพื้นที่</td>
+    <td> < 10 </td>
+    <td> man </td>
+    <td>401</td>
+    <td>31</td>
+    <td style="background-color: red; color: white;">7.73</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td> จำนวนการจัดตั้ง การดำเนินงาน NCDs remission clinic ใน รพศ. รพท. รพช. รพ.สต. ที่ขึ้นทะเบียนเป็นหน่วยบริการปฐมภูมิ</td>
+    <td> ≥ 100</td>
+    <td> man </td>
+    <td>1</td>
+    <td>1</td>
+    <td style="background-color: green; color: white;">100</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td> ร้อยละของโรงพยาบาลที่ให้บริการ Home ward for active dying patient</td>
+    <td>70</td>
+    <td> HDC </td>
+    <td>6</td>
+    <td>3</td>
+    <td style="background-color: red; color: white;">50</td>
+    <td style="color: rgb(100, 100, 7);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(100, 100, 7); text-decoration: none;">IPD</a>
+      </td>
+      
+  </tr>
+  <tr>
+    <td>14</td>
+    <td> ร้อยละของผู้ป่วยโรคเบาหวาน ได้รับการตรวจ HbA1c อย่างน้อยปีละ 1 ครั้ง </td>
+    <td> > 70</td>
+    <td> HDC </td>
+    <td>399</td>
+    <td>157</td>
+    <td style="background-color: red; color: white;">39.35</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td> ร้อยละความสำเร็จของสถานบริการสุขภาพที่มีงานการพยาบาลฝาก ครรภ์คุณภาพ  </td>
+    <td> >80</td>
+    <td> HDC </td>
+    <td>100</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td> ร้อยละ 80 ของหญิงตั้งครรภ์รายใหม่ฝากครรภ์ครั้งแรกภายใน 12 สัปดาห์ </td>
+    <td> >80</td>
+    <td> HDC </td>
+    <td>100</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td> ร้อยละ 80 ของมารดาคลอดที่ฝากครรภ์ครั้งแรกภายใน 12 สัปดาห์และฝาก ครรภ์ครบ 8 ครั้งตามเกณฑ์</td>
+    <td> >80</td>
+    <td> HDC </td>
+    <td>100</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td> ร้อยละ 80 ของมารดาคลอดที่ฝากครรภ์ครั้งแรกภายใน 12 สัปดาห์ ฝากครรภ์</td>
+    <td> >80</td>
+    <td> HDC </td>
+    <td>100</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(240, 114, 135);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(240, 114, 135); text-decoration: none;">OPD</a>
+      </td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td> ร้อยละความสำเร็จของสถานบริการสุขภาพที่มีการดำเนินงานด้านการเฝ้าระวังภาวะช็อคในผู้ป่วยที่สงสัยหรือติดเชื้อในกระแสเลือด</td>
+    <td> <25  </td>
+    <td> man </td>
+    <td>100</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(65, 93, 219);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(65, 93, 219); text-decoration: none;">IC</a>
+      </td>
+      
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>ร้อยละความสำเร็จของสถานบริการสุขภาพที่จัดบริการพยาบาลหน่วยมินิธัญญารักษ์</td>
+    <td> ระดับ 5  </td>
+    <td> man </td>
+    <td>100</td>
+    <td>0</td>
+    <td style="background-color: red; color: white;">0</td>
+    <td style="color: rgb(100, 100, 7);">
+        <a href="file:///D:/row/index.html.html#" style="color: rgb(100, 100, 7); text-decoration: none;">IPD</a>
+      </td>
+      
+
+  </tr>
+</table>
+
+</body>
+</html>
